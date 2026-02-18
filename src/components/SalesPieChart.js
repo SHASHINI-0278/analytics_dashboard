@@ -37,14 +37,6 @@ function SalesPieChart({ data }) {
     ];
 
 
-{/*  const COLORS = [
-      "#2563eb",
-      "#16a34a",
-      "#dc2626",
-      "#ca8a04",
-      "#9333ea"
-    ];
-*/}
   return (
 
     <div className="bg-white p-4 rounded shadow">
