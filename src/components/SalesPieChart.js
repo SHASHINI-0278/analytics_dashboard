@@ -31,7 +31,7 @@ function SalesPieChart({ data }) {
     const COLORS = [
       "#407E8C", // teal
       "#A58D66", // gold
-      "#577c7e", // aqua
+      "#70c6ca", // aqua
       "#083A4F", // navy
       "#6FA3A9"
     ];
