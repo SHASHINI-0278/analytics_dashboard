@@ -49,7 +49,7 @@ function DashBoard() {
 
   return (
 
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-sand min-h-screen">
 
       <NavBar />
 

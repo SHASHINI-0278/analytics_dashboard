@@ -9,7 +9,7 @@ function SalesTable({ data }) {
       </h2>
       <div className="overflow-x-auto">
         <table className="w-full border">
-          <thead className="bg-gray-200">
+          <thead className="bg-navy text-white">
             <tr>
               <th className="p-2 border">Product</th>
               <th className="p-2 border">Revenue (₹)</th>

@@ -28,15 +28,23 @@ function SalesPieChart({ data }) {
     }, {})
 
   );
+    const COLORS = [
+      "#407E8C", // teal
+      "#A58D66", // gold
+      "#C0D5D6", // aqua
+      "#083A4F", // navy
+      "#6FA3A9"
+    ];
 
-  const COLORS = [
-    "#2563eb",
-    "#16a34a",
-    "#dc2626",
-    "#ca8a04",
-    "#9333ea"
-  ];
 
+{/*  const COLORS = [
+      "#2563eb",
+      "#16a34a",
+      "#dc2626",
+      "#ca8a04",
+      "#9333ea"
+    ];
+*/}
   return (
 
     <div className="bg-white p-4 rounded shadow">

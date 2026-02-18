@@ -31,7 +31,7 @@ function SalesBarChart({ data }) {
 
           <Bar
             dataKey="revenue"
-            fill="#2563eb"
+            fill="#407E8C"
           />
 
         </BarChart>

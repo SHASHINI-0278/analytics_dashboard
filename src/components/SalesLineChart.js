@@ -62,7 +62,7 @@ function SalesLineChart({ data }) {
           <Line
             type="monotone"
             dataKey="revenue"
-            stroke="#16a34a"
+            stroke="#A58D66"
             strokeWidth={3}
           />
 
