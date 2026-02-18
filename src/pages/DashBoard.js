@@ -53,7 +53,7 @@ function DashBoard() {
 
       <NavBar />
 
-      <div className="p-6">
+      <div className="p-6 flex flex-col md:flex-row gap-4">
         <input
             type="text"
             placeholder="Search product..."
@@ -86,7 +86,7 @@ function DashBoard() {
 
 
 
-      <div className="p-6 grid grid-cols-3 gap-4">
+      <div className="p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
         <KPICard
           title="Total Revenue"
@@ -105,7 +105,7 @@ function DashBoard() {
 
       </div>
       
-      <div className="p-6 grid grid-cols-2 gap-6">
+      <div className="p-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
 
         <SalesBarChart data={sortedData} />
 
